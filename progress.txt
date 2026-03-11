@@ -1,0 +1,19 @@
+# NeuroApp Progress Tracker
+
+## Phase 0: Scaffolding & State Tracking
+- [x] Initialize `CLAUDE.md` with testing commands and architectural rules.
+- [x] Create `progress.txt` to track build order.
+
+## Phase 1: Backend Importance Engine
+- [x] Scaffold the FastAPI backend.
+- [x] Write unit tests for `prosody_analyzer.py`, `emotion_detector.py`, and `importance_scorer.py`.
+- [x] Implement the 0-100 scoring algorithm (30% prosody, 20% keywords, 20% repetition, 15% emotion, 15% context).
+- [ ] Verify tests pass.
+
+## Phase 2: Desktop App Foundation (Pending Instruction)
+- [ ] Initialize Electron + React + Tailwind + shadcn/ui boilerplate.
+- [ ] Build `RecordingScreen.tsx` with pulsing red record button.
+- [ ] Build `TranscriptView.tsx` with contrast-safe (7:1) Red/Yellow/Green color coding.
+
+## Phase 3: Integration (Pending Instruction)
+- [ ] Connect React frontend to FastAPI backend using `useRecording.ts`.
