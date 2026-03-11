@@ -143,7 +143,13 @@ class ProsodyAnalyzer:
                 if pause_duration >= min_pause_duration:
                     pauses.append((float(pause_start), float(time)))
                 in_pause = False
-        
+
+        if in_pause:
+            end_time = float(audio.size) / self.sample_rate
+            pause_duration = end_time - pause_start
+            if pause_duration >= min_pause_duration:
+                pauses.append((float(pause_start), float(end_time)))
+
         return pauses
     
     def _calculate_total_pause(self, pauses: List[Tuple[float, float]]) -> float:
