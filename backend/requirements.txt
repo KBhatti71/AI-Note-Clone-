@@ -5,6 +5,9 @@ librosa==0.10.1
 soundfile==0.12.1
 praat-parselmouth==0.4.3
 
+# Transcription
+openai-whisper==20231117
+
 # Emotion recognition
 transformers==4.36.2
 torch==2.1.2
@@ -12,3 +15,8 @@ torchaudio==2.1.2
 
 # Testing
 pytest==7.4.3
+
+# API
+fastapi==0.109.0
+uvicorn==0.25.0
+python-multipart==0.0.9

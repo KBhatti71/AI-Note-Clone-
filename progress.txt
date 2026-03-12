@@ -8,7 +8,7 @@
 - [x] Scaffold the FastAPI backend.
 - [x] Write unit tests for `prosody_analyzer.py`, `emotion_detector.py`, and `importance_scorer.py`.
 - [x] Implement the 0-100 scoring algorithm (30% prosody, 20% keywords, 20% repetition, 15% emotion, 15% context).
-- [ ] Verify tests pass.
+- [x] Verify tests pass.
 
 ## Phase 2: Desktop App Foundation (Pending Instruction)
 - [ ] Initialize Electron + React + Tailwind + shadcn/ui boilerplate.
