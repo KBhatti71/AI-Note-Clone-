@@ -5,7 +5,7 @@ Combines prosody, emotion, keywords, and context to score segment importance.
 
 import re
 import numpy as np
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 from dataclasses import dataclass
 from enum import Enum
 
@@ -82,7 +82,7 @@ class ImportanceScorer:
         emotion_result: Optional[Dict] = None,
         user_highlighted: bool = False,
         window_transcripts: Optional[List[TranscriptSegment]] = None
-    ) -> Dict[str, any]:
+    ) -> Dict[str, Any]:
         """
         Calculate importance score for a transcript segment.
         
