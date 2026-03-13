@@ -11,3 +11,17 @@ node_modules/
 dist/
 build/
 .env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Desktop build artifacts
+desktop/dist/
+desktop/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
